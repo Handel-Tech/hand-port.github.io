@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adelson Handel</title>
+    <link rel="stylesheet" href="portfolio.css"/>
+    <script src="portfolio.js"></script>
+</head>
+<body>
+
+<!-- Cette Partie concernera l'en tete, donc nous avons choisi comme lettre d pour les differents 
+ classe qui reliera avec le CSS-->
+
+    <section class="ad">
+    <header class="ac">
+       <nav class="aa">
+      <h1>ADELSON <span> HANDEL CHARLES F.</span></h1>
+      <ul class="ab">
+        <li><a href=""><srong>Accueil</srong></a></li>
+        <li><a href="Avant-propos.html">À propos</a></li>
+        <li><a href="IHDR.html">Projets</a></li>
+        <li><a href="">Compétences</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  </section>
+
+
+
+<!-- Pati sa a se pou 2em ak 3 em pati a ki preske menm -->
+
+<section class="ba">
+  <div class="bb">
+  <div class="bc">
+      <h2>Je suis <span class="bd"> Handel Charles F.</span>, Certifié en Géographie et Aménagement du Territoire, 
+        Développeur en devenir, passionné par le web et les SIG.
+        Je mets mes compétences au service de projets porteurs de sens.</h2>
+  </div>
+  <div class="be">
+  <img src="amenagement.jpg" alt="amenagemengt">
+  </div>
+  </div>
+</section>
+
+
+<section class="ba1">
+  <div class="bb">
+  <div class="bc">
+      <h3>Je suis <span class="bd"> Handel Charles F.</span>, Certifié en Géographie et Aménagement du Territoire, 
+    Passionné et engagé, je mets mes compétences au service de projets porteurs de sens. Adepte des technologies, je fais preuve d'une attitude positive 
+    et d'une forte motivation pour apprendre de nouveaux programmes. Habitué à travailler sous pression, 
+    je dispose également d'un excellent sens relationnel, 
+    qui me permet de collaborer efficacement au sein d'une équipe.</h3>
+
+      <a href="CV Handel.pdf" class="bf" target="_blank">Télécharger mon CV</a>
+   </div>
+   <div class="be">
+   <img src="ADELSON Handel Charles.jpg" alt="mon image">
+   </div>
+  </div>
+</section>
+
+
+  <!-- Pati ki pou pemet moun nan klike a pou l kapab al sou pwoje a -->
+
+<section class="ca">
+    <h2 class="cb">Mes Projets</h2>
+
+    <div class="cc">
+    <div class="cd">
+        <p>Vous souhaitez en savoir plus sur mon organisation, l'IHDR ?</p>
+        <button class="bf"><a href="IHDR.html" target="_blank"> Cliquez ici</a></button>
+    </div>
+    </div>
+  </section>
+
+
+
+
+<!--Pati ki pou mes competencess lan-->
+
+  <section class="da">
+  <h1 class="db">Mes Compétences</h1>
+  <div class="dc">
+
+    <section class="de">
+      <h2> Compétences Générales </h2>
+
+      <div class="dd"> Travail en équipe
+        <div class="dg"><div class="df" style="width: 100%;"></div></div>
+      </div>
+      <div class="dd"> Communication
+        <div class="dg"><div class="df" style="width: 95%;"></div></div>
+      </div>
+      <div class="dd">Adaptabilité
+        <div class="dg"><div class="df" style="width: 85%;"></div></div>
+      </div>
+      <div class="dd"> Autonomie
+        <div class="dg"><div class="df" style="width: 90%;"></div></div>
+      </div>
+      <div class="dd"> Leadership
+        <div class="dg"><div class="df" style="width: 90%;"></div></div>
+      </div>
+    </section>
+
+    <section class="de">
+      <h2>Compétences Techniques</h2>
+
+      <div class="dd">Arcgis
+        <div class="dg"><div class="df" style="width: 70%;"></div></div>
+      </div>
+      <div class="dd">JavaScript
+        <div class="dg"><div class="df" style="width: 15%;"></div></div>
+      </div>
+      <div class="dd">Qgis
+        <div class="dg"><div class="df" style="width: 70%;"></div></div>
+      </div>
+      <div class="dd"> Html
+        <div class="dg"><div class="df" style="width: 50%;"></div></div>
+      </div>
+      <div class="dd">Css
+        <div class="dg"><div class="df" style="width: 35%;"></div></div>
+      </div>
+      <div class="dd">Microsoft Office
+        <div class="dg"><div class="df" style="width: 85%;"></div></div>
+      </div>
+    </section>
+
+  </div>
+</section>
+
+  
+
+
+<!--Pati ki pou fomile a -->
+
+  <section class="ea">
+  <p class="eb">Souhaitez-vous me contacter pour un nouveau projet ?<br> 
+    N'hésitez pas à me joindre.</p>
+
+  <form id="la" onsubmit="return validerFormulaire()">
+
+    <div class="ec">
+      <div class="ed">
+        <label for="prenom">Votre Prénom</label>
+        <input type="text" id="prenom" placeholder="Handel" />
+      </div>
+
+      <div class="ed">
+        <label for="nom">Votre Nom</label>
+        <input type="text" id="nom" placeholder="ADELSON" />
+      </div>
+    </div>
+
+    <div class="ed">
+      <label for="sujet"> Votre Sujet</label>
+      <input type="text" id="sujet" placeholder="Sujet de votre message" maxlength="180"/>
+    </div>
+
+    <div class="ed">
+      <label for="Email">Votre E-mail</label>
+      <input type="text" id="Email" placeholder="adelsonhandel12@gmail.com" maxlength="180"/>
+    </div>
+
+    <div class="ed">
+      <label for="description"> Message </label>
+      <textarea id="description" rows="10" cols="50" placeholder="Écrivez votre message..."></textarea>
+    </div>
+
+    <div class="ee">
+    <button type="submit">Envoyer</button>
+    </div>
+  </form>
+</section>
+
+
+
+
+
+<!--Sa a se pye paj la -->
+   <footer>
+    <p class="ia"> Designed by Adelson Handel with HTML, CSS, JS</p>
+    <p> Tous droits réservés - 2025</p>
+   </footer> 
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+/* Cette partie concerne les entetes pour les differents page la lettre A leurs ont attribuees*/
+
+.ad {
+  background-color: rgb(105, 212, 231);
+  padding: 20px 40px;
+}
+
+
+.aa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ab {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+
+.ab li a {
+  color: rgb(16, 6, 73);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ab li a:hover {
+  border: 2px solid rgb(0, 0, 0) ;
+  font-weight: bold;
+  background-color: rgba(0, 216, 214, 0.1);
+  color: rgb(255, 255, 255);
+  display: inline-block;         
+  width: 100px;                  
+  text-align: center;            
+  padding: 6px 0;                
+}
+.ab li a:last-child {
+    margin-right: 20px ;
+}
+
+/*Cette partie est pour mon decription et une image*/ 
+
+.ba {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  line-height: 1.8;
+  padding: 90px 20px;
+  max-width: 900px;
+  justify-content: center;
+  margin: auto;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(0, 182, 194);
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-left: 6px solid rgb(0, 182, 194);
+  padding-left: 10px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 6px;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.bb {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  gap: 20px;
+}
+
+.bc {
+  flex: 1 1 40%;
+  max-width: 300px;
+}
+
+.bc img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bd {
+  flex: 1 1 60%;
+  text-align: justify;
+}
+
+/* Pati sa a se pou pye paj yo*/
+
+.ib {
+  text-align: right;
+  margin: 1px;
+}
+footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 20px;
+}
