@@ -1,3 +1,4 @@
+
 //fomile
 function validerFormulaire() {
     let prenom = document.getElementById("prenom");
@@ -31,7 +32,15 @@ function validerFormulaire() {
     if (Email.value.trim() === "") {
       Email.style.border = "2px solid red";
       valide = false;
+    } else {
+        const verify = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!verify.test(Email.value.trim())) {
+            Email.style.border = "2px solid red";
+            alert("Adresse e-mail invalide !");
+            return false;
+        }
     }
+
     if (description.value.trim() === "") {
       description.style.border = "2px solid red";
       valide = false;

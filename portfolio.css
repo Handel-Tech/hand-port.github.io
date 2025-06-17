@@ -1,6 +1,18 @@
 
-/* Cette partie concerne les entetes pour les differents page la lettre A leurs ont attribuees*/
+section:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
 
+img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 30px 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+/* Cette partie concerne les entetes pour les differents page la lettre A leurs ont attribuees*/
 .aa {
   display: flex;
   justify-content: space-between;
@@ -293,4 +305,41 @@ footer {
 .ib {
   text-align: right;
   margin: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .aa {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .ab {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bb {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dc {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ec {
+    flex-direction: column;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
 }
