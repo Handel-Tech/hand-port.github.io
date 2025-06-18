@@ -307,6 +307,9 @@ footer {
   margin: 1px;
 }
 
+
+/* Se pou Telefon*/
+
 @media screen and (max-width: 768px) {
   .aa {
     flex-direction: column;

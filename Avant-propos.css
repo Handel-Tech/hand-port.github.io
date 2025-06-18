@@ -107,3 +107,39 @@ footer {
   align-items: center;            
   padding: 20px;
 }
+
+/* Pou Telefon */
+@media screen and (max-width: 768px) {
+  .aa {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ab {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .bb {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bc img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+   .bd {
+    padding: 0 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+}

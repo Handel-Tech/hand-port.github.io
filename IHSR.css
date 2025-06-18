@@ -90,3 +90,33 @@ footer {
   align-items: center;            
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .aa {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ab {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bb {
+    font-size: 22px;
+  }
+
+  .ba h2 {
+    font-size: 20px;
+  }
+
+  .ba p {
+    font-size: 15px;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+}
